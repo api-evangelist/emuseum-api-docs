@@ -1,0 +1,89 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "eMuseum API",
+        "description": "Developed in partnership with museums, The Museum System makes capturing, managing and accessing collection information quick and easy. eMuseum is a web-based software program that integrates seamlessly with TMS and other collection management systems to dynamically publish information to your website, Intranet, and kiosks. This API delivers search information and images from TMS & eMuseum to GSA.gov.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsgsafinearts.pbs.gsa.gov\/emuseum\/api"
+    ],
+    "paths": {
+        "\/search\/people": {
+            "get": {
+                "summary": "Artists",
+                "description": "Search for an artist",
+                "operationId": "SearchArtists",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/id\/people\/{id}": {
+            "get": {
+                "summary": "Artist",
+                "description": "Request an artist",
+                "operationId": "GetArtist",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/id\/objects\/{id}": {
+            "get": {
+                "summary": "Art",
+                "description": "Get Art",
+                "operationId": "GetArt",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/collections\/all": {
+            "get": {
+                "summary": "Collections",
+                "description": "Get Collections",
+                "operationId": "GetCollections",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/collections\/{id}": {
+            "get": {
+                "summary": "Collections",
+                "description": "Get Collection",
+                "operationId": "GetCollection",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/search\/buildings": {
+            "get": {
+                "summary": "Buildings",
+                "description": "Search for art by building",
+                "operationId": "SearchBuildings",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/id\/buildings\/{id}": {
+            "get": {
+                "summary": "Building",
+                "description": "Get Art By Building",
+                "operationId": "GetBuilding",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/search\/objects": {
+            "get": {
+                "summary": "Art",
+                "description": "Seart for art by object",
+                "operationId": "SearchARt",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
