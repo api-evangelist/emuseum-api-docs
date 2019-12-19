@@ -1,0 +1,50 @@
+{
+    "name": "eMuseum API docs",
+    "description": "<p>Developed in partnership with museums, The Museum System makes capturing, managing and accessing collection information quick and easy. eMuseum is a web-based software program that integrates seamlessly with TMS and other collection management systems to dynamically publish information to your website, Intranet, and kiosks. This API delivers search information and images from TMS &amp; eMuseum to GSA.gov.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/eMuseum5_Blog.jpg",
+    "tags": [
+        "api provider",
+        "federal government   gsa",
+        "general data",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/emuseum-api-docs\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "eMuseum API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/eMuseum5_Blog.jpg",
+            "humanURL": "http:\/\/gsa.github.io\/eMuseum-API\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/emuseum-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/emuseum-api.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/emuseum-api-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Issues",
+            "url": "https:\/\/github.com\/GSA\/eMuseum-API\/issues"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/gsa.github.io\/eMuseum-API\/"
+        }
+    ]
+}
